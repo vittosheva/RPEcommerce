@@ -1,0 +1,23 @@
+// Here you can add other styles
+.header-fixed {
+  .app-header {
+    box-shadow: $box-shadow;
+    border-bottom: $border-bottom;
+  }
+}
+
+table.table {
+  thead {
+    box-shadow: $box-shadow;
+    border-bottom: $border-bottom;
+  }
+}
+
+table.table.table-hover {
+  tbody {
+    tr:hover {
+      box-shadow: 0 4px 13px -3px rgba(0, 0, 0, 0.10196);
+      border-bottom: $border-bottom;
+    }
+  }
+}

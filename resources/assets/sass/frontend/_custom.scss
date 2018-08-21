@@ -1,0 +1,107 @@
+// Override the Bootstrap defaults without modifying key, versioned files.
+
+body, body #app {
+    height: 100%;
+}
+
+.auth-layout {
+    height: 100vh;
+    margin: 0;
+}
+.auth-layout .main {
+    margin: 0;
+    height: 100%;
+}
+.auth-layout .main .auth-content, .auth-layout .main .auth-wallpaper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.auth-layout .main .auth-content {
+    padding: 0;
+    background-color: #fff;
+}
+.signup {
+    width: 21.375rem;
+}
+.signup h2 {
+    text-align: center;
+}
+
+.abc-checkbox {
+    padding-left: 20px;
+}
+.abc-checkbox, .abc-radio {
+    margin-bottom: 20px;
+}
+.abc-checkbox {
+    cursor: default;
+    padding-left: 4px;
+}
+.form-check {
+    position: relative;
+    display: block;
+    padding-left: 1.25rem;
+}
+.signup .down-container {
+    margin-top: 2.6875rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.auth-layout .main .auth-wallpaper {
+    background-color: #333;
+    overflow: hidden;
+}
+.auth-layout .main .auth-content, .auth-layout .main .auth-wallpaper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.auth-layout .main .auth-wallpaper .oblique {
+    position: absolute;
+    background-color: #282828;
+    left: 36.5%;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+    width: 27%;
+    height: 115%;
+}
+.auth-layout .main .auth-wallpaper .i-vuestic {
+    z-index: 2;
+    height: 2.625rem;
+    width: 100%;
+}
+.i-vuestic {
+    display: inline-block;
+    width: 129px;
+    height: 15.4px;
+    background: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxuc…wwLTcuOC0zLjQtNy44LTcuN1MxMTguMiwwLDEyMi44LDB6Ii8+DQo8L2c+DQo8L3N2Zz4NCg==) no-repeat 50%;
+}
+a {
+    color: #4ae387;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
